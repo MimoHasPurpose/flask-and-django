@@ -47,8 +47,12 @@ from requests import put, get
 
 ##### Basic commands:
 
-- `python -m django --version`
+
 - `mkdir djangotutorial`
+- `conda create --name django`
+- `conda activate django`
+- `conda install django`
+- `python -m django --version`
 - `django-admin startproject mysite djangotutorial`
 - ` python manage.py runserver`
 - `python manage.py startapp polls`
@@ -56,3 +60,5 @@ from requests import put, get
 - ###### Terminologies:
   - **ASGI:** Asynchronous server gateway interface
   - **WSGI:** Web server gateway interface
+
+  
