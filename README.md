@@ -55,10 +55,13 @@ from requests import put, get
 - `python -m django --version`
 - `django-admin startproject mysite djangotutorial`
 - ` python manage.py runserver`
-- `python manage.py startapp polls`
+
 
 - ###### Terminologies:
   - **ASGI:** Asynchronous server gateway interface
   - **WSGI:** Web server gateway interface
 
   
+- What’s the difference between a project and an app? An app is a web application that does something – e.g., a blog system, a database of public records or a small poll app. A project is a collection of configuration and apps for a particular website. A project can contain multiple apps. An app can be in multiple projects.
+
+- `python manage.py startapp polls`
